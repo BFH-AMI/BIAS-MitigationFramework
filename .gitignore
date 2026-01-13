@@ -1,0 +1,140 @@
+# Large datasets and data files
+data/bios/en/bias_in_bios.json
+
+# Model files and results
+models/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.ckpt
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Config files with sensitive data
+.env
+.env.local
+.env.*.local
+config.ini
+secrets.yaml
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Wandb (if using for experiment tracking)
+wandb/
+
+# MLflow (if using for experiment tracking)
+mlruns/
+
+# Large text files and outputs
+*.out
+*.txt
+!requirements.txt
+!README.txt
+!LICENSE.txt
+
+# Backup files
+*.bak
+*.backup
